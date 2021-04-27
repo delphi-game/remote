@@ -1,3 +1,3 @@
-/delphi/remote/* /:splat 200
-/game /index.html 200
-/setup /index.html 200
+/delphi/remote/* /:splat
+/game /index.html
+/setup /index.html

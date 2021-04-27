@@ -14,9 +14,11 @@ import Login from "./pages/Login.vue";
 import Game from "./pages/Game.vue";
 import Setup from "./pages/Setup.vue";
 
+import { publicPath } from "../vue.config";
+
 const router = new VueRouter({
   mode: "history",
-  base: __dirname,
+  base: publicPath,
   routes: [
     { path: "/", component: Login },
     { path: "/game", component: Game },

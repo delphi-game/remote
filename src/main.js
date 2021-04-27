@@ -17,7 +17,7 @@ import Setup from "./pages/Setup.vue";
 import { publicPath } from "../vue.config";
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "hash",
   base: publicPath,
   routes: [
     { path: "/", component: Login },

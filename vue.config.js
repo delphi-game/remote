@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/delphi/remote/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
 };
